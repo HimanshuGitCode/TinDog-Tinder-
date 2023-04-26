@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: #ff4c68;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #000000;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #ff4c68;
+}
+#submenu a {
+	background-color:#000000;
+}
+
+.dropdownmenu{
+    width: 80000px;
+    height: 50px;
+    padding-left: 450px;
+    font-weight: 300px;
+}
+
+.heading{
+   
+    margin-top: 250px;
+}
+
+.img{
+	width: 60%;
+	transform: rotate(25deg);
+	margin-top: 25px;
+	
+}
+
+#features{
+	padding: 7% 15%;
+}
+
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+
+h3{
+	font-family: Narrow Bold;
+}
+
+.icon{
+	color: #ff4c68;
+}
+
+#testimonials{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #ef8172;
+	color: #FFF;
+}
+
+h2{
+	font-family: bold;
+	font-size: xx-large;
+	line-height: 1.5;
+}
+
+.new{
+	margin-top: 2.5%;
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+
+}
+
+.pw{
+	width: 15%;
+	margin: 20px 20px 15px;
+}
